@@ -15,13 +15,11 @@ public class Logout {
 		
 	}
 	
-	@FindBy(linkText="Logout")
+	@FindBy(linkText="Log out")
 	WebElement logout;
 
 	public void logoff() {
 		logout.click();
-		Alert a = driver.switchTo().alert();
-		a.accept();
 	}
 
 }

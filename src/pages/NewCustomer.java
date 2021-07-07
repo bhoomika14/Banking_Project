@@ -100,7 +100,7 @@ public class NewCustomer {
 		state.sendKeys("Karnataka");
 		pin.sendKeys("575003");
 		mobile.sendKeys("1234567890");
-		email.sendKeys("vikram@google.com");
+		email.sendKeys("vikram1@google.com");
 		pass.sendKeys("12345");
 		submit.click();	
 		

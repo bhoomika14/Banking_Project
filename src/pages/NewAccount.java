@@ -65,8 +65,7 @@ public void writeexceldata(int row, int col, int value, String sheet) throws IOE
 	XSSFWorkbook wb = new XSSFWorkbook(fs); //object for workbook
 	XSSFSheet ws = wb.getSheet(sheet);//object for subsheet
 	
-	
-	ws.createRow(row); //creates an entire row
+//	ws.createRow(row); //creates an entire row
 	ws.getRow(row).createCell(col).setCellValue(value); //gets the row mentioned before, creates a col, sets a value
 	fs.close();
 	
